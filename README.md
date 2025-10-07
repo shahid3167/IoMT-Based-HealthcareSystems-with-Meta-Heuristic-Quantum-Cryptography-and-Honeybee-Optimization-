@@ -22,8 +22,10 @@ This repository provides a **modular MATLAB implementation** for simulating a se
 <p align="center">
 
 ### **Data Encoding**
-![Data Encoding](figures/data_encoding.png)
-*Visualizes how IoMT data is encoded into quantum states.*
+<p align="center">
+<img src="https://github.com/shahid3167/IoMT-Based-HealthcareSystems-with-Meta-Heuristic-Quantum-Cryptography-and-Honeybee-Optimization-/blob/main/Figures/EncryptionModel.jpg" width="600" height="700">
+<p align="center">
+
 
 ### **Twofish Encryption Mechanism**
 <p align="center">
