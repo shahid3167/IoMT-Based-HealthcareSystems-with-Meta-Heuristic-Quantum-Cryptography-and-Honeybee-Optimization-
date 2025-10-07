@@ -76,7 +76,7 @@ The simulation produces the following outputs:
  
 ### **Post Attack Performance**
 <p align="center">
-<img src="https://github.com/shahid3167/IoMT-Based-HealthcareSystems-with-Meta-Heuristic-Quantum-Cryptography-and-Honeybee-Optimization-/blob/main/Figures/Figure%208.jpg" width="600" height="700">
+<img src="https://github.com/shahid3167/IoMT-Based-HealthcareSystems-with-Meta-Heuristic-Quantum-Cryptography-and-Honeybee-Optimization-/blob/main/Figures/Figure%208.jpg" width="500" height="600">
 <p align="center">
 
   Fig.5.  Encryption and Decryption Times of the various security approaches
