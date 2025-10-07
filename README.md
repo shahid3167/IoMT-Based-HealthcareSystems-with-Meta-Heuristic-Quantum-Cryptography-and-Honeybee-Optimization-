@@ -13,8 +13,10 @@ This repository provides a **modular MATLAB implementation** for simulating a se
 ## **Figures & System Overview**
 
 ### **System Model**
-![System Model](figures/system_model.png)
-*Illustrates the IoMT devices, network, and cloud server architecture.*
+<p align="center">
+<img src="https://github.com/shahid3167/IoT_Enabled_Hybrid_ENN_DQN_Framework_For_Crop_Healthcare/blob/main/Figures/SystemModel.jpg" width="700" height="600">
+<p align="center">
+  Fig.1.  System model of IoT-enabled hybrid (DQN and ENN) framework for managing agricultural field.
 
 ### **Quantum Key Distribution (QKD)**
 ![QKD Simulation](figures/qkd_diagram.png)
