@@ -63,7 +63,6 @@ This repository provides a **modular MATLAB implementation** for simulating a se
 - **Min-max normalization** for feature scaling.
 - **SHA-256 hash** for dataset integrity verification.
 
----
 
 ## **Results**
 
