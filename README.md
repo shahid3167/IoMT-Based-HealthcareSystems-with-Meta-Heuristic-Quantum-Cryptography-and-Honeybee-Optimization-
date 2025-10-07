@@ -26,9 +26,9 @@ This repository provides a **modular MATLAB implementation** for simulating a se
 *Visualizes how IoMT data is encoded into quantum states.*
 
 ### **Twofish Encryption Mechanism**
-![Twofish Encryption](figures/twofish_key_division.png)
-*Represents the master key generation, division into 4 subkeys (p, q, r, s), key schedule, Feistel network rounds, and final encrypted output.*
-
+<p align="center">
+<img src="https://github.com/shahid3167/IoMT-Based-HealthcareSystems-with-Meta-Heuristic-Quantum-Cryptography-and-Honeybee-Optimization-/blob/main/Figures/TwoFishMechanism.jpg" width="600" height="700">
+<p align="center">
 ---
 
 ## **Features**
