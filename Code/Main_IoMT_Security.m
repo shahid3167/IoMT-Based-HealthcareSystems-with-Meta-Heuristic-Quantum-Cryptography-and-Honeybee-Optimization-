@@ -1,0 +1,31 @@
+clear; close all; clc;
+p = fileparts(mfilename('fullpath'));
+addpath(p);
+params = config();
+results = cell(params.numRuns,1);
+for runIdx = 1:params.numRuns
+    seed = params.randomSeed + runIdx - 1;
+    fprintf('Run %d/%d (seed=%d)\n', runIdx, params.numRuns, seed);
+    qkey = qkd_simulation(params, seed);
+    fprintf('  QKD produced key length: %d bits\n', length(qkey));
+    desiredKeyLen = 128;
+    keyBits = zeros(1, desiredKeyLen);
+    keyBits(1:min(length(qkey), desiredKeyLen)) = qkey(1:min(length(qkey), desiredKeyLen));
+    p_word = keyBits(1:32);
+    q_word = keyBits(33:64);
+    r_word = keyBits(65:96);
+    s_word = keyBits(97:128);
+    fprintf('  Master key formed (4 words): p,q,r,s (32 bits each)\n');
+    dim = 16;
+    objectiveFcn = @(x) sum(x.^2);
+    best = hoa_optimization(params, objectiveFcn, dim);
+    fprintf('  HOA best fitness: %g\n', best.fitness);
+    plaintextBits = randi([0,1], 1, 1024);
+    ciphertext = encrypt_twofish(plaintextBits, keyBits, params.encryptionType);
+    fprintf('  Encryption: ciphertext length (bytes) = %d\n', numel(ciphertext));
+    traffic = dos_flood_sim(params);
+    fprintf('  DoS simulation: %d nodes x %d packets\n', params.numAttackNodes, params.packetsPerNode);
+    results{runIdx} = struct('qkey_len', numel(qkey), 'hoa_best', best, 'cipher_len', numel(ciphertext));
+end
+fprintf('All runs completed.\n');
+save('IoMT_sim_results.mat', 'results');
