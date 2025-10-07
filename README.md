@@ -2,13 +2,11 @@
 
 **Secure IoMT Data Transmission using Quantum Key Distribution (QKD) and Honeybee Optimization Algorithm (HOA)**
 
----
 
 ## **Overview**
 
 This repository provides a **modular MATLAB implementation** for simulating a secure Internet of Medical Things (IoMT) system. It integrates **Quantum Key Distribution (QKD)** with **Honeybee Optimization Algorithm (HOA)** and **symmetric encryption (AES/Twofish)** to ensure secure IoMT data transmission. The framework also includes **DoS attack simulation** to test robustness and **parameter optimization** for enhanced security.
 
----
 
 ## **Figures & System Overview**
 
