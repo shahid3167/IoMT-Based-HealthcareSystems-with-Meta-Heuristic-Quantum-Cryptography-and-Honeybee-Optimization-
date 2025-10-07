@@ -86,5 +86,12 @@ The simulation produces the following outputs:
 <img src="https://github.com/shahid3167/IoMT-Based-HealthcareSystems-with-Meta-Heuristic-Quantum-Cryptography-and-Honeybee-Optimization-/blob/main/Figures/Table%204.jpg" width="500" height="600">
 <p align="center">
 
+### **Processing time and Memory usage**
+<p align="center">
+<img src="https://github.com/shahid3167/IoMT-Based-HealthcareSystems-with-Meta-Heuristic-Quantum-Cryptography-and-Honeybee-Optimization-/blob/main/Figures/Figure%209.jpg" width="500" height="600">
+<p align="center">
+
+  Fig.6.  Processing Time and Memory Usage of the various security approaches
+
 
 
