@@ -17,8 +17,9 @@ This repository provides a **modular MATLAB implementation** for simulating a se
   Fig.1.  System model of the proposed approach for IoMT highlighting overall security mechanism with the interactive functional components.
 
 ### **Quantum Key Distribution (QKD)**
-![QKD Simulation](figures/qkd_diagram.png)
-*Shows the QKD session, channel noise, qubit loss, and eavesdropping.*
+<p align="center">
+<img src="https://github.com/shahid3167/IoT_Enabled_Hybrid_ENN_DQN_Framework_For_Crop_Healthcare/blob/main/Figures/Table%201.png" width="550" height="280">
+<p align="center">
 
 ### **Data Encoding**
 ![Data Encoding](figures/data_encoding.png)
