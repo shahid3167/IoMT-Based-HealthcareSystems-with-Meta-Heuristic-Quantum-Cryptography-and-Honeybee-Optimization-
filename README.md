@@ -100,7 +100,7 @@ The simulation produces the following outputs:
 
 ### **Average performance against different attacks**
 <p align="center">
-<img src="https://github.com/shahid3167/IoMT-Based-HealthcareSystems-with-Meta-Heuristic-Quantum-Cryptography-and-Honeybee-Optimization-/blob/main/Figures/Figure%2010.jpg" width="500" height="600">
+<img src="https://github.com/shahid3167/IoMT-Based-HealthcareSystems-with-Meta-Heuristic-Quantum-Cryptography-and-Honeybee-Optimization-/blob/main/Figures/Figure%2010.jpg" width="700" height="800">
 <p align="center">
 
   Fig.7.  Average performance for confidenital rate, error rate, and data integrity against DoS, BF, MiTM, and RW attacks.
