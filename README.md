@@ -68,11 +68,12 @@ This repository provides a **modular MATLAB implementation** for simulating a se
 
 The simulation produces the following outputs:
 
-1. **Quantum Key Metrics**: Length of generated key after QKD, privacy amplification, and eavesdropping simulation.
-2. **HOA Optimization**: Best fitness and optimized parameters for secure IoMT transmission.
-3. **Encrypted Data**: Ciphertext generated from IoMT dataset using AES or Twofish.
-4. **DoS Traffic Simulation**: Matrix of attacker nodes and packet flows to test robustness.
-5. **Saved Results**: All metrics saved to `IoMT_sim_results.mat` for analysis.
+### **Post Attack Performance**
+<p align="center">
+<img src="https://github.com/shahid3167/IoMT-Based-HealthcareSystems-with-Meta-Heuristic-Quantum-Cryptography-and-Honeybee-Optimization-/blob/main/Figures/Table3.jpg" width="500" height="700">
+<p align="center">
+
+  Fig.4.  Master key formation and quantum key division into subkeys via the Twofish mechanism.
 
 Example MATLAB console output for a run:
 
