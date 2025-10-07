@@ -68,37 +68,37 @@ This repository provides a **modular MATLAB implementation** for simulating a se
 
 The simulation produces the following outputs:
 
-### **Post Attack Performance**
+### **Post attack performance**
 <p align="center">
 <img src="https://github.com/shahid3167/IoMT-Based-HealthcareSystems-with-Meta-Heuristic-Quantum-Cryptography-and-Honeybee-Optimization-/blob/main/Figures/Table3.jpg" width="600" height="700">
 <p align="center">
 
  
-### **Encryption and Decryption Time**
+### **Encryption and decryption time**
 <p align="center">
 <img src="https://github.com/shahid3167/IoMT-Based-HealthcareSystems-with-Meta-Heuristic-Quantum-Cryptography-and-Honeybee-Optimization-/blob/main/Figures/Figure%208.jpg" width="500" height="600">
 <p align="center">
 
   Fig.5.  Encryption and Decryption Times of the various security approaches
 
-  ### **Comparative Study against state-of-the-art methods**
+  ### **Comparative study against state-of-the-art methods**
 <p align="center">
 <img src="https://github.com/shahid3167/IoMT-Based-HealthcareSystems-with-Meta-Heuristic-Quantum-Cryptography-and-Honeybee-Optimization-/blob/main/Figures/Table%204.jpg" width="500" height="600">
 <p align="center">
 
-### **Processing time and Memory usage**
+### **Processing time and memory usage**
 <p align="center">
 <img src="https://github.com/shahid3167/IoMT-Based-HealthcareSystems-with-Meta-Heuristic-Quantum-Cryptography-and-Honeybee-Optimization-/blob/main/Figures/Figure%209.jpg" width="500" height="600">
 <p align="center">
 
   Fig.6.  Processing Time and Memory Usage of the various security approaches
 
-### **Statistical Analysis**
+### **Statistical analysis**
 <p align="center">
 <img src="https://github.com/shahid3167/IoMT-Based-HealthcareSystems-with-Meta-Heuristic-Quantum-Cryptography-and-Honeybee-Optimization-/blob/main/Figures/Table%206.png" width="500" height="600">
 <p align="center">
 
-### **Processing time and Memory usage**
+### **Average performance against different attacks**
 <p align="center">
 <img src="https://github.com/shahid3167/IoMT-Based-HealthcareSystems-with-Meta-Heuristic-Quantum-Cryptography-and-Honeybee-Optimization-/blob/main/Figures/Figure%2010.jpg" width="500" height="600">
 <p align="center">
@@ -106,4 +106,7 @@ The simulation produces the following outputs:
   Fig.7.  Average performance for confidenital rate, error rate, and data integrity against DoS, BF, MiTM, and RW attacks.
 
 
-
+### **Computational complexity**
+<p align="center">
+<img src="https://github.com/shahid3167/IoMT-Based-HealthcareSystems-with-Meta-Heuristic-Quantum-Cryptography-and-Honeybee-Optimization-/blob/main/Figures/Table%207.png" width="500" height="600">
+<p align="center">
