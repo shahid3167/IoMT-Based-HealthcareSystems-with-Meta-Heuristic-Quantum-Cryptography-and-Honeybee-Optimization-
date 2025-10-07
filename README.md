@@ -36,7 +36,7 @@ This repository provides a **modular MATLAB implementation** for simulating a se
 <img src="https://github.com/shahid3167/IoMT-Based-HealthcareSystems-with-Meta-Heuristic-Quantum-Cryptography-and-Honeybee-Optimization-/blob/main/Figures/TwoFishMechanism.jpg" width="500" height="700">
 <p align="center">
 
-  Fig.4.  System model of the proposed approach for IoMT highlighting overall security mechanism with the interactive functional components.
+  Fig.4.  Master key formation and quantum key division into subkeys via the Twofish mechanism.
 
 
 ## **Features**
