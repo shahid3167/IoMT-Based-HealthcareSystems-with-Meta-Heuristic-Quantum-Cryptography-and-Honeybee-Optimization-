@@ -73,7 +73,11 @@ The simulation produces the following outputs:
 <img src="https://github.com/shahid3167/IoMT-Based-HealthcareSystems-with-Meta-Heuristic-Quantum-Cryptography-and-Honeybee-Optimization-/blob/main/Figures/Table3.jpg" width="600" height="700">
 <p align="center">
 
-  Fig.4.  Master key formation and quantum key division into subkeys via the Twofish mechanism.
+ 
+### **Post Attack Performance**
+<p align="center">
+<img src="https://github.com/shahid3167/IoMT-Based-HealthcareSystems-with-Meta-Heuristic-Quantum-Cryptography-and-Honeybee-Optimization-/blob/main/Figures/Figure%208.jpg" width="600" height="700">
+<p align="center">
 
-Example MATLAB console output for a run:
+  Fig.5.  Encryption and Decryption Times of the various security approaches
 
