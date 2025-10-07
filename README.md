@@ -93,5 +93,8 @@ The simulation produces the following outputs:
 
   Fig.6.  Processing Time and Memory Usage of the various security approaches
 
-
+### **Statistical Analysis**
+<p align="center">
+<img src="https://github.com/shahid3167/IoMT-Based-HealthcareSystems-with-Meta-Heuristic-Quantum-Cryptography-and-Honeybee-Optimization-/blob/main/Figures/Table%206.png" width="500" height="600">
+<p align="center">
 
