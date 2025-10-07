@@ -8,6 +8,27 @@
 
 This repository provides a **modular MATLAB implementation** for simulating a secure Internet of Medical Things (IoMT) system. It integrates **Quantum Key Distribution (QKD)** with **Honeybee Optimization Algorithm (HOA)** and **symmetric encryption (AES/Twofish)** to ensure secure IoMT data transmission. The framework also includes **DoS attack simulation** to test robustness and **parameter optimization** for enhanced security.
 
+---
+
+## **Figures & System Overview**
+
+### **System Model**
+![System Model](figures/system_model.png)
+*Illustrates the IoMT devices, network, and cloud server architecture.*
+
+### **Quantum Key Distribution (QKD)**
+![QKD Simulation](figures/qkd_diagram.png)
+*Shows the QKD session, channel noise, qubit loss, and eavesdropping.*
+
+### **Data Encoding**
+![Data Encoding](figures/data_encoding.png)
+*Visualizes how IoMT data is encoded into quantum states.*
+
+### **Twofish Encryption Mechanism**
+![Twofish Encryption](figures/twofish_key_division.png)
+*Represents the master key generation, division into 4 subkeys (p, q, r, s), key schedule, Feistel network rounds, and final encrypted output.*
+
+---
 
 ## **Features**
 
@@ -33,13 +54,17 @@ This repository provides a **modular MATLAB implementation** for simulating a se
 - **Min-max normalization** for feature scaling.
 - **SHA-256 hash** for dataset integrity verification.
 
-### **Software & Hardware**
-- MATLAB **R2022b** (64-bit) recommended.
-- Toolboxes: **Optimization Toolbox**, **Communications Toolbox**, **Signal Processing Toolbox**.
-- Hardware: Intel Core i7 @ 3.4GHz, 16 GB RAM. CPU-only execution; GPU optional.
-
 ---
 
-## **Repository Structure**
+## **Results**
 
+The simulation produces the following outputs:
+
+1. **Quantum Key Metrics**: Length of generated key after QKD, privacy amplification, and eavesdropping simulation.
+2. **HOA Optimization**: Best fitness and optimized parameters for secure IoMT transmission.
+3. **Encrypted Data**: Ciphertext generated from IoMT dataset using AES or Twofish.
+4. **DoS Traffic Simulation**: Matrix of attacker nodes and packet flows to test robustness.
+5. **Saved Results**: All metrics saved to `IoMT_sim_results.mat` for analysis.
+
+Example MATLAB console output for a run:
 
