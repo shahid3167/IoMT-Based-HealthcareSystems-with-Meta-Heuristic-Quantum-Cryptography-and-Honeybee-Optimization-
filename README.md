@@ -18,7 +18,7 @@ This repository provides a **modular MATLAB implementation** for simulating a se
 
 ### **Quantum Key Distribution (QKD)**
 <p align="center">
-<img src="https://github.com/shahid3167/IoMT-Based-HealthcareSystems-with-Meta-Heuristic-Quantum-Cryptography-and-Honeybee-Optimization-/blob/main/Figures/TwoFishMechanism.jpg" width="800" height="600">
+<img src="https://github.com/shahid3167/IoMT-Based-HealthcareSystems-with-Meta-Heuristic-Quantum-Cryptography-and-Honeybee-Optimization-/blob/main/Figures/TwoFishMechanism.jpg" width="600" height="700">
 <p align="center">
 
 ### **Data Encoding**
