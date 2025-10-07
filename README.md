@@ -14,7 +14,7 @@ This repository provides a **modular MATLAB implementation** for simulating a se
 
 ### **System Model**
 <p align="center">
-<img src="https://github.com/shahid3167/IoT_Enabled_Hybrid_ENN_DQN_Framework_For_Crop_Healthcare/blob/main/Figures/SystemModel.jpg" width="700" height="600">
+<img src="https://github.com/shahid3167/IoMT-Based-HealthcareSystems-with-Meta-Heuristic-Quantum-Cryptography-and-Honeybee-Optimization-/blob/main/Figures/SystemModel.jpg" width="700" height="600">
 <p align="center">
   Fig.1.  System model of IoT-enabled hybrid (DQN and ENN) framework for managing agricultural field.
 
